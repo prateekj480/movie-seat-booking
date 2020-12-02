@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <title>Movie Seat Booking</title>
+  </head>
+  <body>
+    <div class="movies">
+      <p>Pick a movie:</p>
+      <select id="movie-list">
+        <option value="13">Avengers($<span id="movie1">13</span>)</option>
+        <option value="12">Joker($<span id="movie2">12</span>)</option>
+        <option value="11">Toy Story 4($<span id="movie3">11</span>)</option>
+        <option value="15">Parasite($<span id="movie4">15</span>)</option>
+      </select>
+    </div>
+    <div class="seat-type">
+      <button class="na"></button>N/A <button class="selected"></button>Selected
+      <button class="occupied"></button>Occupied
+    </div>
+    <div class="seat-select">
+      <div class="movie-screen"></div>
+      <div class="seat-sections">
+        <div class="seat-section-1">
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button class="occupied"></button>
+          <button class="occupied"></button> <button></button>
+          <button></button>
+          <button></button>
+          <button class="occupied"></button> <button></button>
+          <button></button>
+        </div>
+        <div class="seat-section-2">
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button class="occupied"></button> <button></button>
+          <button></button>
+          <button></button>
+          <button class="occupied"></button> <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button class="occupied"></button> <button></button>
+          <button></button>
+        </div>
+        <div class="seat-section-1">
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button class="occupied"></button> <button></button>
+          <button></button>
+          <button class="occupied"></button> <button></button>
+          <button></button>
+        </div>
+      </div>
+    </div>
+    <p class="final-price">
+      You have selected <span id="seat-number">0</span> seats for a price of
+      $<span id="price">0</span>
+    </p>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
